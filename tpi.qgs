@@ -149,10 +149,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-74.19715776443486277</xmin>
-      <ymin>-59.45600934028630036</ymin>
-      <xmax>-52.09074125289913582</xmax>
-      <ymax>-20.6894965648650988</ymax>
+      <xmin>-69.8897674560547415</xmin>
+      <ymin>-57.66890059532007484</ymin>
+      <xmax>-47.78335094451901455</xmax>
+      <ymax>-18.90238781989886974</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -183,16 +183,16 @@
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="localidades20151026175917397"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="veg_cultivos20151026175917764"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="marcas_y_señales20151026175917415"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="edificio_publico_ips20151026175917242"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="curso_de_agua_hid20151026175917117"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="edificio_publico_ips20151026175917242"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="señalizaciones20151026175917636"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="puntos_del_terreno20151026175917569"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="curvas_de_nivel20151026175917132"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="puntos_del_terreno20151026175917569"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="salvado_de_obstaculo20151026175917617"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="veg_arborea20151026175917729"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="edif_educacion20151026175917176"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="red_vial20151026175917603"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="complejo_de_energia_ene20151026175917101"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="red_vial20151026175917603"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vias_secundarias20151026175917810"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="veg_hidrofila20151026175917778"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="edif_religiosos20151026175917192"/>
@@ -661,7 +661,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -691,7 +694,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -722,7 +728,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -752,7 +761,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -789,10 +801,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -1035,7 +1047,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -1065,7 +1080,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -1096,7 +1114,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -1126,7 +1147,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -1163,10 +1187,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -1403,7 +1427,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -1433,7 +1460,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -1464,7 +1494,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -1494,7 +1527,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -1531,10 +1567,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -1784,7 +1820,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -1814,7 +1853,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -1845,7 +1887,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -1875,7 +1920,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -1912,10 +1960,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -2171,7 +2219,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -2201,7 +2252,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -2232,7 +2286,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -2262,7 +2319,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -2299,10 +2359,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -2539,7 +2599,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -2569,7 +2632,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -2600,7 +2666,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -2630,7 +2699,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -2667,10 +2739,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -2904,7 +2976,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -2934,7 +3009,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -2965,7 +3043,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -2995,7 +3076,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -3032,10 +3116,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -3272,7 +3356,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -3302,7 +3389,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -3333,7 +3423,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -3363,7 +3456,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -3400,10 +3496,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -3643,7 +3739,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -3673,7 +3772,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -3704,7 +3806,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -3734,7 +3839,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -3771,10 +3879,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -4014,7 +4122,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -4044,7 +4155,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -4075,7 +4189,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -4105,7 +4222,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -4142,10 +4262,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -4382,7 +4502,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -4412,7 +4535,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -4443,7 +4569,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -4473,7 +4602,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -4510,10 +4642,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -4750,7 +4882,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -4780,7 +4915,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -4811,7 +4949,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -4841,7 +4982,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -4878,10 +5022,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -5121,7 +5265,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -5151,7 +5298,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -5182,7 +5332,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -5212,7 +5365,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -5249,10 +5405,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -5501,7 +5657,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -5531,7 +5690,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -5562,7 +5724,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -5592,7 +5757,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -5629,10 +5797,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -5896,7 +6064,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -5926,7 +6097,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -5957,7 +6131,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -5987,7 +6164,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -6024,10 +6204,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -6279,7 +6459,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -6309,7 +6492,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -6340,7 +6526,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -6370,7 +6559,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -6407,10 +6599,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -6641,7 +6833,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -6671,7 +6866,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -6702,7 +6900,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -6732,7 +6933,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -6769,10 +6973,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -7003,7 +7207,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -7033,7 +7240,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -7064,7 +7274,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -7094,7 +7307,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -7131,10 +7347,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -7365,7 +7581,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -7395,7 +7614,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -7426,7 +7648,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -7456,7 +7681,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -7493,10 +7721,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -7746,7 +7974,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -7776,7 +8007,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -7807,7 +8041,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -7837,7 +8074,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -7874,10 +8114,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -8135,7 +8375,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -8165,7 +8408,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -8196,7 +8442,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -8226,7 +8475,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -8263,10 +8515,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -8516,7 +8768,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -8546,7 +8801,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -8577,7 +8835,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -8607,7 +8868,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -8644,10 +8908,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -8935,7 +9199,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -8965,7 +9232,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -8996,7 +9266,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -9026,7 +9299,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -9063,10 +9339,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -9349,7 +9625,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -9379,7 +9658,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -9410,7 +9692,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -9440,7 +9725,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -9477,10 +9765,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -9714,7 +10002,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -9744,7 +10035,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -9775,7 +10069,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -9805,7 +10102,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -9842,10 +10142,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -10070,7 +10370,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -10100,7 +10403,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -10131,7 +10437,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -10161,7 +10470,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -10198,10 +10510,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -10429,7 +10741,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -10459,7 +10774,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -10490,7 +10808,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -10520,7 +10841,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -10557,10 +10881,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -10800,7 +11124,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -10830,7 +11157,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -10861,7 +11191,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -10891,7 +11224,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -10928,10 +11264,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -11105,7 +11441,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -11135,7 +11474,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -11166,7 +11508,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -11196,7 +11541,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -11233,10 +11581,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -11422,7 +11770,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -11452,7 +11803,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -11483,7 +11837,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -11513,7 +11870,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -11550,10 +11910,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -11808,7 +12168,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -11838,7 +12201,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -11869,7 +12235,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -11899,7 +12268,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -11936,10 +12308,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -12176,7 +12548,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -12206,7 +12581,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -12237,7 +12615,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -12267,7 +12648,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -12304,10 +12688,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -12563,7 +12947,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -12593,7 +12980,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -12624,7 +13014,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -12654,7 +13047,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -12691,10 +13087,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -12980,7 +13376,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -13010,7 +13409,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -13041,7 +13443,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -13071,7 +13476,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -13108,10 +13516,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -13372,7 +13780,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -13402,7 +13813,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -13433,7 +13847,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -13463,7 +13880,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -13500,10 +13920,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -13731,7 +14151,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -13761,7 +14184,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -13792,7 +14218,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -13822,7 +14251,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -13859,10 +14291,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -14090,7 +14522,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -14120,7 +14555,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -14151,7 +14589,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -14181,7 +14622,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -14218,10 +14662,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -14452,7 +14896,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -14482,7 +14929,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -14513,7 +14963,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -14543,7 +14996,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -14580,10 +15036,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -14814,7 +15270,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -14844,7 +15303,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -14875,7 +15337,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -14905,7 +15370,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -14942,10 +15410,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -15176,7 +15644,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -15206,7 +15677,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -15237,7 +15711,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -15267,7 +15744,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -15304,10 +15784,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -15538,7 +16018,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -15568,7 +16051,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -15599,7 +16085,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -15629,7 +16118,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -15666,10 +16158,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -15900,7 +16392,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -15930,7 +16425,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -15961,7 +16459,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -15991,7 +16492,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -16028,10 +16532,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -16262,7 +16766,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -16292,7 +16799,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -16323,7 +16833,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -16353,7 +16866,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -16390,10 +16906,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -16624,7 +17140,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -16654,7 +17173,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -16685,7 +17207,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -16715,7 +17240,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -16752,10 +17280,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -16986,7 +17514,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -17016,7 +17547,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -17047,7 +17581,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -17077,7 +17614,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -17114,10 +17654,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -17348,7 +17888,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -17378,7 +17921,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -17409,7 +17955,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -17439,7 +17988,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -17476,10 +18028,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -17717,7 +18269,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -17747,7 +18302,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -17778,7 +18336,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -17808,7 +18369,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -17845,10 +18409,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -17961,9 +18525,57 @@
     </Paths>
     <WMSServiceTitle type="QString">TPI</WMSServiceTitle>
     <WFSLayers type="QStringList">
-      <value>provincias20151026164439199</value>
+      <value>actividades_agropecuarias20151026175916743</value>
+      <value>actividades_economicas20151026175917085</value>
+      <value>complejo_de_energia_ene20151026175917101</value>
+      <value>curso_de_agua_hid20151026175917117</value>
+      <value>curvas_de_nivel20151026175917132</value>
+      <value>edif_construcciones_turisticas20151026175917144</value>
+      <value>edif_depor_y_esparcimiento20151026175917160</value>
+      <value>edif_educacion20151026175917176</value>
+      <value>edif_religiosos20151026175917192</value>
+      <value>edificio_de_salud_ips20151026175917209</value>
+      <value>edificio_de_seguridad_ips20151026175917225</value>
+      <value>edificio_publico_ips20151026175917242</value>
+      <value>edificios_ferroviarios20151026175917260</value>
+      <value>ejido20151026175917277</value>
+      <value>espejo_de_agua_hid20151026175917289</value>
+      <value>estructuras_portuarias20151026175917303</value>
+      <value>infraestructura_aeroportuaria_punto20151026175917321</value>
+      <value>infraestructura_hidro20151026175917338</value>
+      <value>isla20151026175917357</value>
+      <value>limite_politico_administrativo_lim20151026175917370</value>
+      <value>localidades20151026175917397</value>
+      <value>líneas_de_conducción_ene20151026175917383</value>
+      <value>marcas_y_señales20151026175917415</value>
+      <value>muro_embalse20151026175917432</value>
+      <value>obra_de_comunicación20151026175917447</value>
+      <value>obra_portuaria20151026175917466</value>
+      <value>otras_edificaciones20151026175917484</value>
+      <value>pais_lim20151026175917501</value>
+      <value>provincias20151026175917516</value>
+      <value>puente_red_vial_puntos20151026175917531</value>
+      <value>puntos_de_alturas_topograficas20151026175917551</value>
+      <value>puntos_del_terreno20151026175917569</value>
+      <value>red_ferroviaria20151026175917587</value>
+      <value>red_vial20151026175917603</value>
+      <value>salvado_de_obstaculo20151026175917617</value>
+      <value>señalizaciones20151026175917636</value>
+      <value>sue_congelado20151026175917655</value>
+      <value>sue_consolidado20151026175917670</value>
+      <value>sue_costero20151026175917685</value>
+      <value>sue_hidromorfologico20151026175917699</value>
+      <value>sue_no_consolidado20151026175917714</value>
+      <value>veg_arborea20151026175917729</value>
+      <value>veg_arbustiva20151026175917748</value>
+      <value>veg_cultivos20151026175917764</value>
+      <value>veg_hidrofila20151026175917778</value>
+      <value>veg_suelo_desnudo20151026175917793</value>
+      <value>vias_secundarias20151026175917810</value>
     </WFSLayers>
     <WMSContactMail type="QString"></WMSContactMail>
+    <WMSRestrictedComposers type="QStringList"/>
+    <WMSRestrictedLayers type="QStringList"/>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
       <Automatic type="bool">true</Automatic>
@@ -18249,7 +18861,54 @@
       </LayerSnappingToleranceList>
     </Digitizing>
     <WFSLayersPrecision>
+      <sue_consolidado20151026175917670 type="int">8</sue_consolidado20151026175917670>
+      <red_ferroviaria20151026175917587 type="int">8</red_ferroviaria20151026175917587>
+      <sue_hidromorfologico20151026175917699 type="int">8</sue_hidromorfologico20151026175917699>
+      <edificios_ferroviarios20151026175917260 type="int">8</edificios_ferroviarios20151026175917260>
+      <ejido20151026175917277 type="int">8</ejido20151026175917277>
+      <veg_arbustiva20151026175917748 type="int">8</veg_arbustiva20151026175917748>
+      <puntos_de_alturas_topograficas20151026175917551 type="int">8</puntos_de_alturas_topograficas20151026175917551>
+      <sue_congelado20151026175917655 type="int">8</sue_congelado20151026175917655>
+      <obra_portuaria20151026175917466 type="int">8</obra_portuaria20151026175917466>
+      <provincias20151026175917516 type="int">8</provincias20151026175917516>
+      <localidades20151026175917397 type="int">8</localidades20151026175917397>
+      <veg_cultivos20151026175917764 type="int">8</veg_cultivos20151026175917764>
+      <marcas_y_señales20151026175917415 type="int">8</marcas_y_señales20151026175917415>
+      <curso_de_agua_hid20151026175917117 type="int">8</curso_de_agua_hid20151026175917117>
+      <edificio_publico_ips20151026175917242 type="int">8</edificio_publico_ips20151026175917242>
+      <señalizaciones20151026175917636 type="int">8</señalizaciones20151026175917636>
+      <curvas_de_nivel20151026175917132 type="int">8</curvas_de_nivel20151026175917132>
+      <puntos_del_terreno20151026175917569 type="int">8</puntos_del_terreno20151026175917569>
+      <salvado_de_obstaculo20151026175917617 type="int">8</salvado_de_obstaculo20151026175917617>
+      <veg_arborea20151026175917729 type="int">8</veg_arborea20151026175917729>
+      <edif_educacion20151026175917176 type="int">8</edif_educacion20151026175917176>
+      <complejo_de_energia_ene20151026175917101 type="int">8</complejo_de_energia_ene20151026175917101>
+      <red_vial20151026175917603 type="int">8</red_vial20151026175917603>
+      <vias_secundarias20151026175917810 type="int">8</vias_secundarias20151026175917810>
+      <veg_hidrofila20151026175917778 type="int">8</veg_hidrofila20151026175917778>
+      <edif_religiosos20151026175917192 type="int">8</edif_religiosos20151026175917192>
+      <otras_edificaciones20151026175917484 type="int">8</otras_edificaciones20151026175917484>
+      <pais_lim20151026175917501 type="int">8</pais_lim20151026175917501>
+      <edif_depor_y_esparcimiento20151026175917160 type="int">8</edif_depor_y_esparcimiento20151026175917160>
+      <actividades_agropecuarias20151026175916743 type="int">8</actividades_agropecuarias20151026175916743>
+      <infraestructura_hidro20151026175917338 type="int">8</infraestructura_hidro20151026175917338>
+      <isla20151026175917357 type="int">8</isla20151026175917357>
+      <obra_de_comunicación20151026175917447 type="int">8</obra_de_comunicación20151026175917447>
+      <sue_costero20151026175917685 type="int">8</sue_costero20151026175917685>
+      <muro_embalse20151026175917432 type="int">8</muro_embalse20151026175917432>
+      <puente_red_vial_puntos20151026175917531 type="int">8</puente_red_vial_puntos20151026175917531>
+      <sue_no_consolidado20151026175917714 type="int">8</sue_no_consolidado20151026175917714>
+      <actividades_economicas20151026175917085 type="int">8</actividades_economicas20151026175917085>
+      <infraestructura_aeroportuaria_punto20151026175917321 type="int">8</infraestructura_aeroportuaria_punto20151026175917321>
+      <veg_suelo_desnudo20151026175917793 type="int">8</veg_suelo_desnudo20151026175917793>
+      <edificio_de_seguridad_ips20151026175917225 type="int">8</edificio_de_seguridad_ips20151026175917225>
+      <espejo_de_agua_hid20151026175917289 type="int">8</espejo_de_agua_hid20151026175917289>
+      <líneas_de_conducción_ene20151026175917383 type="int">8</líneas_de_conducción_ene20151026175917383>
+      <edif_construcciones_turisticas20151026175917144 type="int">8</edif_construcciones_turisticas20151026175917144>
+      <limite_politico_administrativo_lim20151026175917370 type="int">8</limite_politico_administrativo_lim20151026175917370>
       <provincias20151026164439199 type="int">8</provincias20151026164439199>
+      <estructuras_portuarias20151026175917303 type="int">8</estructuras_portuarias20151026175917303>
+      <edificio_de_salud_ips20151026175917209 type="int">8</edificio_de_salud_ips20151026175917209>
     </WFSLayersPrecision>
     <Identify>
       <disabledLayers type="QStringList"/>
