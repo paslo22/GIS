@@ -95,11 +95,27 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-#map{
-    height: 400px;
-    width: 100%;
+html, body{
+    height: 100%;
 }
 
+#map{
+    float: left;
+    height: 100%;
+    width: 75%;
+}
+
+#layers{
+    background-color: #ccc;
+    float: right;
+    height: 100%;
+    overflow: auto;
+    width: 25%;
+}
+
+#layers h1{
+    text-align: center; 
+}
 
 
 
