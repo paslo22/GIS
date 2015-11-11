@@ -23,7 +23,7 @@ $(document).ready(function() {
 
 getCapabilities = function() {
 	var parser = new ol.format.WMSCapabilities();
-	var capabilitiesString = "http://localhost/cgi-bin/qgis_mapserv.fcgi?map=/home/user/data/tpi/web/tpi.qgs&service=WMS&REQUEST=getCapabilities"
+	var capabilitiesString = "http://localhost/cgi-bin/qgis_mapserv.fcgi?map="+ config['pathToQGS'] + config['QGSName']+"&service=WMS&REQUEST=getCapabilities"
 	$.ajax(capabilitiesString).then(function(response) {
 		var result = parser.read(response);
 		return result.Capability.Layer.Layer;
@@ -47,7 +47,6 @@ addLayers = function(capas) {
 };
 
 addChecks = function(capas) {
-	c = capas;
 	container = $("#checks");
 	$.each(capas,function(i) {
 		var output = '';
