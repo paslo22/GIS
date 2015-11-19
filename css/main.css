@@ -117,8 +117,30 @@ html, body{
     text-align: center; 
 }
 
+.layer{
+    background-color: #fff;
+    height: 31px;
+    overflow: hidden;
+    margin: 10px 0px;
+}
 
+.layer input{
+    bottom: 10px;
+    position:relative;
+}
 
+.layer img{
+    bottom: 32px;
+    position:relative;
+}
+
+#controls{
+    bottom:5px;
+    background-color: rgba(0,0,0,0);
+    height: 50px;
+    left: 5px;
+    position: absolute;
+}
 
 
 

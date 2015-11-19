@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	map = new ol.Map({
-	target: 'map',
+		target: 'map',
 	// layers: [
 	// 	new ol.layer.Tile({
 	// 			title: "Provincias",
@@ -19,6 +19,8 @@ $(document).ready(function() {
 	});
 
 	getCapabilities();
+	setInteractions();
+	
 })
 
 getCapabilities = function() {
@@ -51,14 +53,14 @@ addChecks = function(capas) {
 	$.each(capas,function(i) {
 		var output = '';
 		output += '<div class="layer">';
-		output += '<input type="checkbox" id='+ capas[i].Title +' />';
+		output += '<input type="checkbox" id="'+ capas[i].Title +'" />';
 		// output += '<label>'+ capas[i].Title +' <label/>'; // <- Esto no iria.
-		output += '<img src='+ capas[i].Style[0].LegendURL[0].OnlineResource +' />';
+		output += '<img src="'+ capas[i].Style[0].LegendURL[0].OnlineResource +'" />';
 		output += '</div>';
 		container.append(output);
 	});
 
-	var checkboxs = $('input[type="checkbox"]');
+	var checkboxs = $('#checks input[type="checkbox"]');
 	checkboxs.each(function(index, el) {
 		var layerName = $(el).attr('id');
 		layer = map.getLayers().getArray().filter(function(a) {
@@ -74,5 +76,72 @@ bindear = function(layer, element) {
 			if (checked !==layer.getVisible()) {
 				layer.setVisible(checked);
 			};
+	});
+};
+
+
+setInteractions = function() {
+	$('#controls #navegacion')[0].checked=true;
+	$('#controls #consulta')[0].checked=false;
+
+	var selectInteraction = new ol.interaction.DragBox({
+		condition: ol.events.condition.always,
+		style: new ol.style.Style({
+			stroke: new ol.style.Stroke({
+				color: [0, 0, 255, 1]
+			})
+		})
+	});
+
+	selectInteraction.on('boxend', function (evt) {
+		//console.log('boxend', this.getGeometry().getCoordinates());
+		consulta(this.getGeometry().getCoordinates());
+	});
+
+	var clickOnMap = function(evt) {
+		//console.log('click', evt.coordinate);
+		consulta(evt.coordinate);
+	};
+
+	var consulta = function(coordinate) {
+		if(coordinate.length==2){
+			var wkt='POINT('+coordinate[0]+' ' +coordinate[1]+')';
+		}else{
+			var wkt = 'POLYGON((';
+			for(var i=0;i<coordinate[0].length - 1;i++){
+				wkt+=coordinate[0][i][0]+ ' ' + coordinate[0][i][1]+ ',';
+			}
+			wkt+=coordinate[0][0][0]+' '+coordinate[0][0][1]+'))'
+		}
+		PopupCenter('consulta.php?wkt='+wkt,'Consulta',600,600);
+		return;
+	};
+
+	$('#controls #navegacion').click(function(event) {
+		var $this = $(this);
+		if ($this.is(':checked')) {
+			$('#controls #consulta')[0].checked = false;
+			map.removeInteraction(selectInteraction);
+			map.un('click',clickOnMap);
+		} else {
+			console.log('Aca destilde navegacion')
+			$('#controls #consulta')[0].checked = true;
+			map.addInteraction(selectInteraction);
+			map.on('click',clickOnMap);
+		};
+	});
+
+	$('#controls #consulta').click(function(event) {
+		var $this = $(this);
+		if ($this.is(':checked')) {
+			$('#controls #navegacion')[0].checked = false;
+			map.addInteraction(selectInteraction);
+			map.on('click',clickOnMap);
+		} else {
+			console.log('Aca destilde consulta')
+			$('#controls #navegacion')[0].checked = true;
+			map.removeInteraction(selectInteraction);
+			map.un('click',clickOnMap);
+		}
 	});
 };
