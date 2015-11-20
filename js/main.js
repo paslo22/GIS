@@ -1,16 +1,6 @@
 $(document).ready(function() {
 	map = new ol.Map({
 		target: 'map',
-	// layers: [
-	// 	new ol.layer.Tile({
-	// 			title: "Provincias",
-	// 			source: new ol.source.TileWMS({
-	// 				url: '/cgi-bin/qgis_mapserv.fcgi?map='+ config['pathToQGS'] + config['QGSName'],
-	// 				// url: '/cgi-bin/qgis_mapserv.fcgi?map=/home/user/data/tpi/web/tpi.qgs',
-	// 				params: {'LAYERS': 'provincias'}
-	// 			})
-	// 		})
-	// 	],
 		view: new ol.View({
 			projection: 'EPSG:4326',
 			center:[-59, -39],
@@ -54,7 +44,6 @@ addChecks = function(capas) {
 		var output = '';
 		output += '<div class="layer">';
 		output += '<input type="checkbox" id="'+ capas[i].Title +'" />';
-		// output += '<label>'+ capas[i].Title +' <label/>'; // <- Esto no iria.
 		output += '<img src="'+ capas[i].Style[0].LegendURL[0].OnlineResource +'" />';
 		output += '</div>';
 		container.append(output);
@@ -79,7 +68,6 @@ bindear = function(layer, element) {
 	});
 };
 
-
 setInteractions = function() {
 	$('#controls #navegacion')[0].checked=true;
 	$('#controls #consulta')[0].checked=false;
@@ -94,16 +82,25 @@ setInteractions = function() {
 	});
 
 	selectInteraction.on('boxend', function (evt) {
-		//console.log('boxend', this.getGeometry().getCoordinates());
 		consulta(this.getGeometry().getCoordinates());
 	});
 
 	var clickOnMap = function(evt) {
-		//console.log('click', evt.coordinate);
 		consulta(evt.coordinate);
 	};
 
+	var getCheckedLayers = function() {
+		var layersSelected = $('#checks input:checked');
+		var layersSelectedNames = '';
+		layersSelected.each(function(index, el) {
+			layersSelectedNames+=el.id+';';
+		});
+		layersSelectedNames = layersSelectedNames.slice(0, -1);
+		return layersSelectedNames;
+	};
+
 	var consulta = function(coordinate) {
+		var layers = getCheckedLayers();
 		if(coordinate.length==2){
 			var wkt='POINT('+coordinate[0]+' ' +coordinate[1]+')';
 		}else{
@@ -113,7 +110,7 @@ setInteractions = function() {
 			}
 			wkt+=coordinate[0][0][0]+' '+coordinate[0][0][1]+'))'
 		}
-		PopupCenter('consulta.php?wkt='+wkt,'Consulta',600,600);
+		PopupCenter('consulta.php?wkt='+wkt+'&capas='+layers,'Consulta',600,600);
 		return;
 	};
 
