@@ -135,10 +135,16 @@ html, body{
 }
 
 #controls{
-    bottom:5px;
+    bottom:30px;
     background-color: rgba(0,0,0,0);
     height: 50px;
     left: 5px;
+    position: absolute;
+}
+
+#add-capa{
+    left: 5px;
+    bottom:5px;
     position: absolute;
 }
 
