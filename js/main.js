@@ -164,7 +164,9 @@ setInteractions = function() {
 
 	var almacenarPunto = function(evt){
 		console.log(evt.coordinate);
-	}
+		$("#formVisita #coordenadas").attr("value", 'POINT('+evt.coordinate[0]+' ' +evt.coordinate[1]+')');
+		$("#formVisita").modal();
+	};
 
 
 	//logica para dibujar
