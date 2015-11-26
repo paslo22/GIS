@@ -1,147 +1,150 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
 <qgis projectname="" version="2.12.0-Lyon">
   <title></title>
-  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Actividades_Agropecuarias20151126055702152" name="Actividades Agropecuarias">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Actividades_Agropecuarias20151126090951573" name="Actividades Agropecuarias">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Actividades_Economicas20151126055702268" name="Actividades Economicas">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Actividades_Economicas20151126090951598" name="Actividades Economicas">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Complejo_de_Energia20151126055702307" name="Complejo de Energia">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Complejo_de_Energia20151126090951608" name="Complejo de Energia">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Curso_de_Agua20151126055702342" name="Curso de Agua">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Curso_de_Agua20151126090951617" name="Curso de Agua">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Curvas_de_Nivel20151126055702384" name="Curvas de Nivel">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Curvas_de_Nivel20151126090951626" name="Curvas de Nivel">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Edificio_Construcciones_Turisticas20151126055702420" name="Edificio Construcciones Turisticas">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Edificio_Construcciones_Turisticas20151126090951636" name="Edificio Construcciones Turisticas">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Edificio_Deportivo_y_Esparcimiento20151126055702457" name="Edificio Deportivo y Esparcimiento">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Edificio_Deportivo_y_Esparcimiento20151126090951645" name="Edificio Deportivo y Esparcimiento">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Edificio_Educacion20151126055702492" name="Edificio Educacion">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Edificio_Educacion20151126090951654" name="Edificio Educacion">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Edificio_Publico20151126055702527" name="Edificio Publico">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Edificio_Publico20151126090951663" name="Edificio Publico">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Edificio_Religiosos20151126055702560" name="Edificio Religiosos">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Edificio_Religiosos20151126090951672" name="Edificio Religiosos">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Edificio_de_Salud20151126055702605" name="Edificio de Salud">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Edificio_de_Salud20151126090951681" name="Edificio de Salud">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Edificio_de_Seguridad20151126055702654" name="Edificio de Seguridad">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Edificio_de_Seguridad20151126090951690" name="Edificio de Seguridad">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Edificios_Ferroviarios20151126055702699" name="Edificios Ferroviarios">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Edificios_Ferroviarios20151126090951700" name="Edificios Ferroviarios">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Ejido20151126055702735" name="Ejido">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Ejido20151126090951709" name="Ejido">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Espejo_de_Agua20151126055702770" name="Espejo de Agua">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Espejo_de_Agua20151126090951718" name="Espejo de Agua">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Estructura_Aeroportuaria20151126055702823" name="Estructura Aeroportuaria">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Estructura_Aeroportuaria20151126090951727" name="Estructura Aeroportuaria">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Estructura_Hidraulica20151126055702864" name="Estructura Hidraulica">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Estructura_Hidraulica20151126090951736" name="Estructura Hidraulica">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Estructuras_Portuarias20151126055702903" name="Estructuras Portuarias">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Estructuras_Portuarias20151126090951746" name="Estructuras Portuarias">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Isla20151126055702946" name="Isla">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Isla20151126090951754" name="Isla">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Limite_Politico_Administrativo20151126055702987" name="Limite Politico Administrativo">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Limite_Politico_Administrativo20151126090951764" name="Limite Politico Administrativo">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Lineas_Conduccion_Electrica20151126055703029" name="Lineas Conduccion Electrica">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Lineas_Conduccion_Electrica20151126090951773" name="Lineas Conduccion Electrica">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Localidades20151126055703063" name="Localidades">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Localidades20151126090951782" name="Localidades">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Marcas_y_Señales20151126055703104" name="Marcas y Señales">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Marcas_y_Señales20151126090951792" name="Marcas y Señales">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Muro_Embalse20151126055703140" name="Muro Embalse">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Muro_Embalse20151126090951801" name="Muro Embalse">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Obra_Portuaria20151126055703175" name="Obra Portuaria">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Obra_Portuaria20151126090951810" name="Obra Portuaria">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Obra_de_Comunicacion20151126055703226" name="Obra de Comunicacion">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Obra_de_Comunicacion20151126090951819" name="Obra de Comunicacion">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Otras_Edificaciones20151126055703282" name="Otras Edificaciones">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Otras_Edificaciones20151126090951828" name="Otras Edificaciones">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Pais_Limite20151126055703316" name="Pais Limite">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Pais_Limite20151126090951838" name="Pais Limite">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Puente_Red_Vial20151126055703385" name="Puente Red Vial">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Provincias20151126090951847" name="Provincias">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Puntos_de_Alturas_Topograficas20151126055703419" name="Puntos de Alturas Topograficas">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Puente_Red_Vial20151126090951857" name="Puente Red Vial">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Puntos_del_Terreno20151126055703453" name="Puntos del Terreno">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Puntos_de_Alturas_Topograficas20151126090951866" name="Puntos de Alturas Topograficas">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Red_Ferroviaria20151126055703487" name="Red Ferroviaria">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Puntos_del_Terreno20151126090951875" name="Puntos del Terreno">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Red_Vial20151126055703522" name="Red Vial">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Red_Ferroviaria20151126090951885" name="Red Ferroviaria">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Salvado_de_Obstaculo20151126055703556" name="Salvado de Obstaculo">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Red_Vial20151126090951894" name="Red Vial">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Señalizaciones20151126055703590" name="Señalizaciones">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Salvado_de_Obstaculo20151126090951903" name="Salvado de Obstaculo">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Suelo_Congelado20151126055703630" name="Suelo Congelado">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Señalizaciones20151126090951915" name="Señalizaciones">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Suelo_Consolidado20151126055703664" name="Suelo Consolidado">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Suelo_Congelado20151126090951925" name="Suelo Congelado">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Suelo_Costero20151126055703698" name="Suelo Costero">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Suelo_Consolidado20151126090951934" name="Suelo Consolidado">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Suelo_Hidromorfologico20151126055703731" name="Suelo Hidromorfologico">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Suelo_Costero20151126090951944" name="Suelo Costero">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Suelo_no_Consolidado20151126055703766" name="Suelo no Consolidado">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Suelo_Hidromorfologico20151126090951953" name="Suelo Hidromorfologico">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Vegetacion_Arborea20151126055703801" name="Vegetacion Arborea">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Suelo_no_Consolidado20151126090951962" name="Suelo no Consolidado">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Vegetacion_Arbustiva20151126055703835" name="Vegetacion Arbustiva">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Vegetacion_Arborea20151126090951972" name="Vegetacion Arborea">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Vegetacion_Cultivos20151126055703868" name="Vegetacion Cultivos">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Vegetacion_Arbustiva20151126090951981" name="Vegetacion Arbustiva">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Vegetacion_Hidrofila20151126055703903" name="Vegetacion Hidrofila">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Vegetacion_Cultivos20151126090951990" name="Vegetacion Cultivos">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Vegetacion_Suelo_Desnudo20151126055703937" name="Vegetacion Suelo Desnudo">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Vegetacion_Hidrofila20151126090951999" name="Vegetacion Hidrofila">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Vias_Secundarias20151126055703971" name="Vias Secundarias">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Vegetacion_Suelo_Desnudo20151126090952009" name="Vegetacion Suelo Desnudo">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Provincias20151126055703352" name="Provincias">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Vias_Secundarias20151126090952018" name="Vias Secundarias">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="visitas20151126090952027" name="visitas">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -149,10 +152,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-47.57050558336845114</xmin>
-      <ymin>-55.51251924761412937</ymin>
-      <xmax>27.55632262279263855</xmax>
-      <ymax>-16.74600647219292426</ymax>
+      <xmin>-107.28236842105263804</xmin>
+      <ymin>-62.02184210526316832</ymin>
+      <xmax>-12.78236842105263982</xmax>
+      <ymax>-14.77184210526316832</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -169,347 +172,401 @@
       </spatialrefsys>
     </destinationsrs>
     <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Obra_Portuaria20151126055703175"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Isla20151126055702946"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Otras_Edificaciones20151126055703282"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Puntos_de_Alturas_Topograficas20151126055703419"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificio_Religiosos20151126055702560"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Vegetacion_Hidrofila20151126055703903"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Estructuras_Portuarias20151126055702903"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificio_de_Seguridad20151126055702654"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Localidades20151126055703063"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Provincias20151126055703352"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Curso_de_Agua20151126055702342"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificio_Educacion20151126055702492"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Suelo_no_Consolidado20151126055703766"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Vegetacion_Suelo_Desnudo20151126055703937"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Suelo_Costero20151126055703698"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Red_Vial20151126090951894"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Marcas_y_Señales20151126055703104"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Estructura_Hidraulica20151126055702864"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Actividades_Economicas20151126055702268"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Vegetacion_Arbustiva20151126055703835"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Suelo_Consolidado20151126055703664"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificio_Deportivo_y_Esparcimiento20151126055702457"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Red_Ferroviaria20151126090951885"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Vegetacion_Arborea20151126055703801"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificio_Publico20151126055702527"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Red_Ferroviaria20151126055703487"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificio_Construcciones_Turisticas20151126055702420"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Curvas_de_Nivel20151126055702384"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificio_de_Salud20151126055702605"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Suelo_Hidromorfologico20151126055703731"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Estructura_Aeroportuaria20151126055702823"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Puente_Red_Vial20151126055703385"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Lineas_Conduccion_Electrica20151126055703029"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Pais_Limite20151126055703316"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Obra_de_Comunicacion20151126055703226"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificios_Ferroviarios20151126055702699"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Espejo_de_Agua20151126055702770"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Muro_Embalse20151126055703140"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Señalizaciones20151126055703590"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Puntos_del_Terreno20151126055703453"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Limite_Politico_Administrativo20151126055702987"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Complejo_de_Energia20151126055702307"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Suelo_Costero20151126090951944"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Curvas_de_Nivel20151126090951626"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Isla20151126055702946"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Suelo_no_Consolidado20151126055703766"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Ejido20151126055702735"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Vegetacion_Suelo_Desnudo20151126055703937"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Puente_Red_Vial20151126055703385"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Suelo_Congelado20151126090951925"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Curso_de_Agua20151126055702342"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Estructura_Hidraulica20151126055702864"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Suelo_Consolidado20151126055703664"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Estructuras_Portuarias20151126090951746"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificio_de_Salud20151126055702605"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Señalizaciones20151126090951915"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Estructura_Aeroportuaria20151126090951727"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Ejido20151126090951709"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Curvas_de_Nivel20151126055702384"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificio_Publico20151126090951663"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Vegetacion_Cultivos20151126090951990"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Actividades_Agropecuarias20151126055702152"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Vias_Secundarias20151126055703971"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Vegetacion_Cultivos20151126055703868"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Salvado_de_Obstaculo20151126055703556"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Lineas_Conduccion_Electrica20151126090951773"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificio_Educacion20151126055702492"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Puntos_de_Alturas_Topograficas20151126055703419"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Pais_Limite20151126055703316"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Suelo_Congelado20151126055703630"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Red_Vial20151126055703522"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Suelo_Costero20151126055703698"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificio_Publico20151126055702527"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Muro_Embalse20151126055703140"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Lineas_Conduccion_Electrica20151126055703029"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="visitas20151126090952027"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Provincias20151126055703352"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Complejo_de_Energia20151126055702307"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Vegetacion_Cultivos20151126055703868"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Estructuras_Portuarias20151126055702903"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Obra_de_Comunicacion20151126090951819"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Vegetacion_Arbustiva20151126055703835"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Isla20151126090951754"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Otras_Edificaciones20151126090951828"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificio_Educacion20151126090951654"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificio_Construcciones_Turisticas20151126055702420"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Limite_Politico_Administrativo20151126090951764"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Complejo_de_Energia20151126090951608"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificios_Ferroviarios20151126055702699"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Vegetacion_Arbustiva20151126090951981"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Muro_Embalse20151126090951801"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Salvado_de_Obstaculo20151126055703556"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Puente_Red_Vial20151126090951857"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Puntos_del_Terreno20151126055703453"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Espejo_de_Agua20151126090951718"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Pais_Limite20151126090951838"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Actividades_Agropecuarias20151126090951573"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Suelo_no_Consolidado20151126090951962"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Señalizaciones20151126055703590"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificio_Religiosos20151126090951672"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Provincias20151126090951847"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Obra_Portuaria20151126090951810"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Actividades_Economicas20151126090951598"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Espejo_de_Agua20151126055702770"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificio_de_Seguridad20151126090951690"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificio_Construcciones_Turisticas20151126090951636"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Vegetacion_Suelo_Desnudo20151126090952009"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificio_de_Salud20151126090951681"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Vegetacion_Hidrofila20151126055703903"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Salvado_de_Obstaculo20151126090951903"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificio_Religiosos20151126055702560"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Vegetacion_Hidrofila20151126090951999"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Red_Ferroviaria20151126055703487"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificios_Ferroviarios20151126090951700"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Suelo_Hidromorfologico20151126090951953"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Obra_de_Comunicacion20151126055703226"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Marcas_y_Señales20151126090951792"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Localidades20151126090951782"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Limite_Politico_Administrativo20151126055702987"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Suelo_Consolidado20151126090951934"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificio_de_Seguridad20151126055702654"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificio_Deportivo_y_Esparcimiento20151126090951645"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Estructura_Hidraulica20151126090951736"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Vegetacion_Arborea20151126090951972"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Localidades20151126055703063"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Puntos_del_Terreno20151126090951875"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Puntos_de_Alturas_Topograficas20151126090951866"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Otras_Edificaciones20151126055703282"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Vias_Secundarias20151126090952018"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Edificio_Deportivo_y_Esparcimiento20151126055702457"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Suelo_Hidromorfologico20151126055703731"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Vias_Secundarias20151126055703971"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Obra_Portuaria20151126055703175"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Curso_de_Agua20151126090951617"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Estructura_Aeroportuaria20151126055702823"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
     <custom-order enabled="0">
-      <item>Actividades_Agropecuarias20151126055702152</item>
-      <item>Actividades_Economicas20151126055702268</item>
-      <item>Complejo_de_Energia20151126055702307</item>
-      <item>Curso_de_Agua20151126055702342</item>
-      <item>Curvas_de_Nivel20151126055702384</item>
-      <item>Edificio_Construcciones_Turisticas20151126055702420</item>
-      <item>Edificio_Deportivo_y_Esparcimiento20151126055702457</item>
-      <item>Edificio_Educacion20151126055702492</item>
-      <item>Edificio_Publico20151126055702527</item>
-      <item>Edificio_Religiosos20151126055702560</item>
-      <item>Edificio_de_Salud20151126055702605</item>
-      <item>Edificio_de_Seguridad20151126055702654</item>
-      <item>Edificios_Ferroviarios20151126055702699</item>
-      <item>Ejido20151126055702735</item>
-      <item>Espejo_de_Agua20151126055702770</item>
-      <item>Estructura_Aeroportuaria20151126055702823</item>
-      <item>Estructura_Hidraulica20151126055702864</item>
-      <item>Estructuras_Portuarias20151126055702903</item>
-      <item>Isla20151126055702946</item>
-      <item>Limite_Politico_Administrativo20151126055702987</item>
-      <item>Lineas_Conduccion_Electrica20151126055703029</item>
-      <item>Localidades20151126055703063</item>
-      <item>Marcas_y_Señales20151126055703104</item>
-      <item>Muro_Embalse20151126055703140</item>
-      <item>Obra_Portuaria20151126055703175</item>
-      <item>Obra_de_Comunicacion20151126055703226</item>
-      <item>Otras_Edificaciones20151126055703282</item>
-      <item>Pais_Limite20151126055703316</item>
-      <item>Provincias20151126055703352</item>
-      <item>Puente_Red_Vial20151126055703385</item>
-      <item>Puntos_de_Alturas_Topograficas20151126055703419</item>
-      <item>Puntos_del_Terreno20151126055703453</item>
-      <item>Red_Ferroviaria20151126055703487</item>
-      <item>Red_Vial20151126055703522</item>
-      <item>Salvado_de_Obstaculo20151126055703556</item>
-      <item>Señalizaciones20151126055703590</item>
-      <item>Suelo_Congelado20151126055703630</item>
-      <item>Suelo_Consolidado20151126055703664</item>
-      <item>Suelo_Costero20151126055703698</item>
-      <item>Suelo_Hidromorfologico20151126055703731</item>
-      <item>Suelo_no_Consolidado20151126055703766</item>
-      <item>Vegetacion_Arborea20151126055703801</item>
-      <item>Vegetacion_Arbustiva20151126055703835</item>
-      <item>Vegetacion_Cultivos20151126055703868</item>
-      <item>Vegetacion_Hidrofila20151126055703903</item>
-      <item>Vegetacion_Suelo_Desnudo20151126055703937</item>
-      <item>Vias_Secundarias20151126055703971</item>
+      <item>Actividades_Agropecuarias20151126090951573</item>
+      <item>Actividades_Economicas20151126090951598</item>
+      <item>Complejo_de_Energia20151126090951608</item>
+      <item>Curso_de_Agua20151126090951617</item>
+      <item>Curvas_de_Nivel20151126090951626</item>
+      <item>Edificio_Construcciones_Turisticas20151126090951636</item>
+      <item>Edificio_Deportivo_y_Esparcimiento20151126090951645</item>
+      <item>Edificio_Educacion20151126090951654</item>
+      <item>Edificio_Publico20151126090951663</item>
+      <item>Edificio_Religiosos20151126090951672</item>
+      <item>Edificio_de_Salud20151126090951681</item>
+      <item>Edificio_de_Seguridad20151126090951690</item>
+      <item>Edificios_Ferroviarios20151126090951700</item>
+      <item>Ejido20151126090951709</item>
+      <item>Espejo_de_Agua20151126090951718</item>
+      <item>Estructura_Aeroportuaria20151126090951727</item>
+      <item>Estructura_Hidraulica20151126090951736</item>
+      <item>Estructuras_Portuarias20151126090951746</item>
+      <item>Isla20151126090951754</item>
+      <item>Limite_Politico_Administrativo20151126090951764</item>
+      <item>Lineas_Conduccion_Electrica20151126090951773</item>
+      <item>Localidades20151126090951782</item>
+      <item>Marcas_y_Señales20151126090951792</item>
+      <item>Muro_Embalse20151126090951801</item>
+      <item>Obra_Portuaria20151126090951810</item>
+      <item>Obra_de_Comunicacion20151126090951819</item>
+      <item>Otras_Edificaciones20151126090951828</item>
+      <item>Pais_Limite20151126090951838</item>
+      <item>Provincias20151126090951847</item>
+      <item>Puente_Red_Vial20151126090951857</item>
+      <item>Puntos_de_Alturas_Topograficas20151126090951866</item>
+      <item>Puntos_del_Terreno20151126090951875</item>
+      <item>Red_Ferroviaria20151126090951885</item>
+      <item>Red_Vial20151126090951894</item>
+      <item>Salvado_de_Obstaculo20151126090951903</item>
+      <item>Señalizaciones20151126090951915</item>
+      <item>Suelo_Congelado20151126090951925</item>
+      <item>Suelo_Consolidado20151126090951934</item>
+      <item>Suelo_Costero20151126090951944</item>
+      <item>Suelo_Hidromorfologico20151126090951953</item>
+      <item>Suelo_no_Consolidado20151126090951962</item>
+      <item>Vegetacion_Arborea20151126090951972</item>
+      <item>Vegetacion_Arbustiva20151126090951981</item>
+      <item>Vegetacion_Cultivos20151126090951990</item>
+      <item>Vegetacion_Hidrofila20151126090951999</item>
+      <item>Vegetacion_Suelo_Desnudo20151126090952009</item>
+      <item>Vias_Secundarias20151126090952018</item>
+      <item>visitas20151126090952027</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Actividades Agropecuarias" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Actividades Agropecuarias" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Actividades_Agropecuarias20151126055702152" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Actividades_Agropecuarias20151126090951573" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Actividades Economicas" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Actividades Economicas" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Actividades_Economicas20151126055702268" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Actividades_Economicas20151126090951598" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Complejo de Energia" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Complejo de Energia" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Complejo_de_Energia20151126055702307" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Complejo_de_Energia20151126090951608" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Curso de Agua" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Curso de Agua" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Curso_de_Agua20151126055702342" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Curso_de_Agua20151126090951617" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Curvas de Nivel" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Curvas de Nivel" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Curvas_de_Nivel20151126055702384" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Curvas_de_Nivel20151126090951626" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Edificio Construcciones Turisticas" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Edificio Construcciones Turisticas" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Edificio_Construcciones_Turisticas20151126055702420" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Edificio_Construcciones_Turisticas20151126090951636" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Edificio Deportivo y Esparcimiento" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Edificio Deportivo y Esparcimiento" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Edificio_Deportivo_y_Esparcimiento20151126055702457" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Edificio_Deportivo_y_Esparcimiento20151126090951645" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Edificio Educacion" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Edificio Educacion" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Edificio_Educacion20151126055702492" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Edificio_Educacion20151126090951654" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Edificio Publico" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Edificio Publico" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Edificio_Publico20151126055702527" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Edificio_Publico20151126090951663" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Edificio Religiosos" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Edificio Religiosos" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Edificio_Religiosos20151126055702560" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Edificio_Religiosos20151126090951672" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Edificio de Salud" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Edificio de Salud" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Edificio_de_Salud20151126055702605" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Edificio_de_Salud20151126090951681" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Edificio de Seguridad" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Edificio de Seguridad" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Edificio_de_Seguridad20151126055702654" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Edificio_de_Seguridad20151126090951690" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Edificios Ferroviarios" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Edificios Ferroviarios" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Edificios_Ferroviarios20151126055702699" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Edificios_Ferroviarios20151126090951700" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Ejido" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Ejido" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Ejido20151126055702735" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Ejido20151126090951709" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Espejo de Agua" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Espejo de Agua" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Espejo_de_Agua20151126055702770" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Espejo_de_Agua20151126090951718" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Estructura Aeroportuaria" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Estructura Aeroportuaria" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Estructura_Aeroportuaria20151126055702823" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Estructura_Aeroportuaria20151126090951727" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Estructura Hidraulica" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Estructura Hidraulica" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Estructura_Hidraulica20151126055702864" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Estructura_Hidraulica20151126090951736" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Estructuras Portuarias" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Estructuras Portuarias" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Estructuras_Portuarias20151126055702903" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Estructuras_Portuarias20151126090951746" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Isla" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Isla" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Isla20151126055702946" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Isla20151126090951754" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Limite Politico Administrativo" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Limite Politico Administrativo" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Limite_Politico_Administrativo20151126055702987" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Limite_Politico_Administrativo20151126090951764" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Lineas Conduccion Electrica" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Lineas Conduccion Electrica" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Lineas_Conduccion_Electrica20151126055703029" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Lineas_Conduccion_Electrica20151126090951773" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Localidades" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Localidades" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Localidades20151126055703063" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Localidades20151126090951782" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Marcas y Señales" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Marcas y Señales" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Marcas_y_Señales20151126055703104" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Marcas_y_Señales20151126090951792" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Muro Embalse" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Muro Embalse" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Muro_Embalse20151126055703140" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Muro_Embalse20151126090951801" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Obra Portuaria" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Obra Portuaria" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Obra_Portuaria20151126055703175" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Obra_Portuaria20151126090951810" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Obra de Comunicacion" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Obra de Comunicacion" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Obra_de_Comunicacion20151126055703226" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Obra_de_Comunicacion20151126090951819" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Otras Edificaciones" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Otras Edificaciones" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Otras_Edificaciones20151126055703282" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Otras_Edificaciones20151126090951828" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Pais Limite" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Pais Limite" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Pais_Limite20151126055703316" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Puente Red Vial" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Puente_Red_Vial20151126055703385" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Puntos de Alturas Topograficas" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Puntos_de_Alturas_Topograficas20151126055703419" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Puntos del Terreno" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Puntos_del_Terreno20151126055703453" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Red Ferroviaria" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Red_Ferroviaria20151126055703487" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Red Vial" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Red_Vial20151126055703522" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Salvado de Obstaculo" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Salvado_de_Obstaculo20151126055703556" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Señalizaciones" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Señalizaciones20151126055703590" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Suelo Congelado" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Suelo_Congelado20151126055703630" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Suelo Consolidado" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Suelo_Consolidado20151126055703664" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Suelo Costero" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Suelo_Costero20151126055703698" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Suelo Hidromorfologico" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Suelo_Hidromorfologico20151126055703731" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Suelo no Consolidado" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Suelo_no_Consolidado20151126055703766" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Vegetacion Arborea" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Vegetacion_Arborea20151126055703801" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Vegetacion Arbustiva" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Vegetacion_Arbustiva20151126055703835" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Vegetacion Cultivos" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Vegetacion_Cultivos20151126055703868" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Vegetacion Hidrofila" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Vegetacion_Hidrofila20151126055703903" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Vegetacion Suelo Desnudo" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Vegetacion_Suelo_Desnudo20151126055703937" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Vias Secundarias" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Vias_Secundarias20151126055703971" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Pais_Limite20151126090951838" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Provincias" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Provincias20151126055703352" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Provincias20151126090951847" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Puente Red Vial" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Puente_Red_Vial20151126090951857" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Puntos de Alturas Topograficas" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Puntos_de_Alturas_Topograficas20151126090951866" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Puntos del Terreno" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Puntos_del_Terreno20151126090951875" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Red Ferroviaria" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Red_Ferroviaria20151126090951885" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Red Vial" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Red_Vial20151126090951894" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Salvado de Obstaculo" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Salvado_de_Obstaculo20151126090951903" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Señalizaciones" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Señalizaciones20151126090951915" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Suelo Congelado" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Suelo_Congelado20151126090951925" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Suelo Consolidado" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Suelo_Consolidado20151126090951934" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Suelo Costero" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Suelo_Costero20151126090951944" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Suelo Hidromorfologico" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Suelo_Hidromorfologico20151126090951953" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Suelo no Consolidado" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Suelo_no_Consolidado20151126090951962" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Vegetacion Arborea" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Vegetacion_Arborea20151126090951972" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Vegetacion Arbustiva" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Vegetacion_Arbustiva20151126090951981" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Vegetacion Cultivos" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Vegetacion_Cultivos20151126090951990" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Vegetacion Hidrofila" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Vegetacion_Hidrofila20151126090951999" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Vegetacion Suelo Desnudo" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Vegetacion_Suelo_Desnudo20151126090952009" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Vias Secundarias" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Vias_Secundarias20151126090952018" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="visitas" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="visitas20151126090952027" visible="0"/>
       </filegroup>
     </legendlayer>
   </legend>
-  <projectlayers layercount="47">
+  <projectlayers layercount="48">
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Actividades_Agropecuarias20151126055702152</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Actividades Agropecuarias" (geom) sql=</datasource>
+      <id>Actividades_Agropecuarias20151126090951573</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Actividades Agropecuarias" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -626,7 +683,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="250,4,144,255"/>
+              <prop k="color" v="86,210,183,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -775,8 +832,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Actividades_Economicas20151126055702268</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Actividades Economicas" (geom) sql=</datasource>
+      <id>Actividades_Economicas20151126090951598</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Actividades Economicas" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -893,7 +950,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="75,136,14,255"/>
+              <prop k="color" v="161,177,127,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -1042,8 +1099,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Complejo_de_Energia20151126055702307</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Complejo de Energia" (geom) sql=</datasource>
+      <id>Complejo_de_Energia20151126090951608</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Complejo de Energia" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1154,7 +1211,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="188,240,150,255"/>
+              <prop k="color" v="191,171,142,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -1297,8 +1354,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Curso_de_Agua20151126055702342</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiLineString table="public"."Curso de Agua" (geom) sql=</datasource>
+      <id>Curso_de_Agua20151126090951617</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiLineString table="public"."Curso de Agua" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1435,7 +1492,7 @@
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="62,150,51,255"/>
+              <prop k="line_color" v="143,123,73,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="0.26"/>
               <prop k="line_width_unit" v="MM"/>
@@ -1592,8 +1649,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Curvas_de_Nivel20151126055702384</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiLineString table="public"."Curvas de Nivel" (geom) sql=</datasource>
+      <id>Curvas_de_Nivel20151126090951626</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiLineString table="public"."Curvas de Nivel" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1715,7 +1772,7 @@
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="235,208,156,255"/>
+              <prop k="line_color" v="60,60,179,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="0.26"/>
               <prop k="line_width_unit" v="MM"/>
@@ -1857,8 +1914,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Edificio_Construcciones_Turisticas20151126055702420</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Edificio Construcciones Turisticas" (geom) sql=</datasource>
+      <id>Edificio_Construcciones_Turisticas20151126090951636</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Edificio Construcciones Turisticas" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1969,7 +2026,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="63,115,193,255"/>
+              <prop k="color" v="112,200,5,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -2112,8 +2169,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Edificio_Deportivo_y_Esparcimiento20151126055702457</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Edificio Deportivo y Esparcimiento" (geom) sql=</datasource>
+      <id>Edificio_Deportivo_y_Esparcimiento20151126090951645</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Edificio Deportivo y Esparcimiento" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2227,7 +2284,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="62,162,110,255"/>
+              <prop k="color" v="123,5,178,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -2373,8 +2430,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Edificio_Educacion20151126055702492</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Edificio Educacion" (geom) sql=</datasource>
+      <id>Edificio_Educacion20151126090951654</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Edificio Educacion" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2488,7 +2545,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="249,195,174,255"/>
+              <prop k="color" v="61,167,157,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -2634,8 +2691,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Edificio_Publico20151126055702527</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Edificio Publico" (geom) sql=</datasource>
+      <id>Edificio_Publico20151126090951663</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Edificio Publico" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2749,7 +2806,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="132,120,53,255"/>
+              <prop k="color" v="146,11,236,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -2895,8 +2952,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Edificio_Religiosos20151126055702560</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Edificio Religiosos" (geom) sql=</datasource>
+      <id>Edificio_Religiosos20151126090951672</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Edificio Religiosos" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3013,7 +3070,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="92,132,140,255"/>
+              <prop k="color" v="115,183,225,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -3162,8 +3219,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Edificio_de_Salud20151126055702605</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Edificio de Salud" (geom) sql=</datasource>
+      <id>Edificio_de_Salud20151126090951681</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Edificio de Salud" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3277,7 +3334,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="80,165,210,255"/>
+              <prop k="color" v="189,0,82,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -3423,8 +3480,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Edificio_de_Seguridad20151126055702654</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Edificio de Seguridad" (geom) sql=</datasource>
+      <id>Edificio_de_Seguridad20151126090951690</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Edificio de Seguridad" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3538,7 +3595,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="132,33,66,255"/>
+              <prop k="color" v="237,95,135,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -3684,8 +3741,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Edificios_Ferroviarios20151126055702699</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Edificios Ferroviarios" (geom) sql=</datasource>
+      <id>Edificios_Ferroviarios20151126090951700</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Edificios Ferroviarios" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3802,7 +3859,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="233,157,157,255"/>
+              <prop k="color" v="140,105,151,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -3951,8 +4008,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Ejido20151126055702735</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Ejido" (geom) sql=</datasource>
+      <id>Ejido20151126090951709</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Ejido" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -4081,7 +4138,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="35,49,247,255"/>
+              <prop k="color" v="167,209,237,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -4236,8 +4293,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Espejo_de_Agua20151126055702770</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Espejo de Agua" (geom) sql=</datasource>
+      <id>Espejo_de_Agua20151126090951718</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Espejo de Agua" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -4369,7 +4426,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="126,227,53,255"/>
+              <prop k="color" v="77,105,217,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -4527,8 +4584,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Estructura_Aeroportuaria20151126055702823</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Estructura Aeroportuaria" (geom) sql=</datasource>
+      <id>Estructura_Aeroportuaria20151126090951727</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Estructura Aeroportuaria" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -4639,7 +4696,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="74,188,63,255"/>
+              <prop k="color" v="95,20,149,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -4782,8 +4839,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Estructura_Hidraulica20151126055702864</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Estructura Hidraulica" (geom) sql=</datasource>
+      <id>Estructura_Hidraulica20151126090951736</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Estructura Hidraulica" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -4894,7 +4951,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="141,110,79,255"/>
+              <prop k="color" v="74,138,187,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -5037,8 +5094,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Estructuras_Portuarias20151126055702903</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Estructuras Portuarias" (geom) sql=</datasource>
+      <id>Estructuras_Portuarias20151126090951746</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Estructuras Portuarias" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -5149,7 +5206,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="188,228,42,255"/>
+              <prop k="color" v="83,14,193,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -5292,8 +5349,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Isla20151126055702946</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Isla" (geom) sql=</datasource>
+      <id>Isla20151126090951754</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Isla" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -5410,7 +5467,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="145,105,85,255"/>
+              <prop k="color" v="135,155,53,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -5553,8 +5610,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Limite_Politico_Administrativo20151126055702987</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiLineString table="public"."Limite Politico Administrativo" (geom) sql=</datasource>
+      <id>Limite_Politico_Administrativo20151126090951764</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiLineString table="public"."Limite Politico Administrativo" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -5685,7 +5742,7 @@
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="178,106,161,255"/>
+              <prop k="line_color" v="96,183,186,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="0.26"/>
               <prop k="line_width_unit" v="MM"/>
@@ -5836,8 +5893,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Lineas_Conduccion_Electrica20151126055703029</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiLineString table="public"."Lineas Conduccion Electrica" (geom) sql=</datasource>
+      <id>Lineas_Conduccion_Electrica20151126090951773</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiLineString table="public"."Lineas Conduccion Electrica" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -5962,7 +6019,7 @@
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="141,83,129,255"/>
+              <prop k="line_color" v="79,213,222,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="0.26"/>
               <prop k="line_width_unit" v="MM"/>
@@ -6107,8 +6164,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Localidades20151126055703063</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Localidades" (geom) sql=</datasource>
+      <id>Localidades20151126090951782</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Localidades" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -6231,7 +6288,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="59,94,160,255"/>
+              <prop k="color" v="213,6,6,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -6386,8 +6443,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Marcas_y_Señales20151126055703104</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Marcas y Señales" (geom) sql=</datasource>
+      <id>Marcas_y_Señales20151126090951792</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Marcas y Señales" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -6546,7 +6603,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="52,3,248,255"/>
+              <prop k="color" v="109,165,130,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -6737,8 +6794,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Muro_Embalse20151126055703140</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiLineString table="public"."Muro Embalse" (geom) sql=</datasource>
+      <id>Muro_Embalse20151126090951801</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiLineString table="public"."Muro Embalse" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -6860,7 +6917,7 @@
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="0,7,196,255"/>
+              <prop k="line_color" v="235,24,84,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="0.26"/>
               <prop k="line_width_unit" v="MM"/>
@@ -7002,8 +7059,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Obra_Portuaria20151126055703175</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Obra Portuaria" (geom) sql=</datasource>
+      <id>Obra_Portuaria20151126090951810</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Obra Portuaria" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -7111,7 +7168,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="56,7,168,255"/>
+              <prop k="color" v="119,128,37,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -7251,8 +7308,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Obra_de_Comunicacion20151126055703226</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Obra de Comunicacion" (geom) sql=</datasource>
+      <id>Obra_de_Comunicacion20151126090951819</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Obra de Comunicacion" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -7360,7 +7417,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="150,209,150,255"/>
+              <prop k="color" v="54,223,225,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -7500,8 +7557,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Otras_Edificaciones20151126055703282</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Otras Edificaciones" (geom) sql=</datasource>
+      <id>Otras_Edificaciones20151126090951828</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Otras Edificaciones" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -7612,7 +7669,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="204,204,112,255"/>
+              <prop k="color" v="44,149,167,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -7755,8 +7812,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Pais_Limite20151126055703316</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Pais Limite" (geom) sql=</datasource>
+      <id>Pais_Limite20151126090951838</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Pais Limite" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -7882,7 +7939,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="100,61,150,255"/>
+              <prop k="color" v="202,130,203,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -8034,8 +8091,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Provincias20151126055703352</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Provincias" (geom) sql=</datasource>
+      <id>Provincias20151126090951847</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Provincias" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -8080,7 +8137,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="219,243,144,255"/>
+              <prop k="color" v="155,142,41,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -8151,8 +8208,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Puente_Red_Vial20151126055703385</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Puente Red Vial" (geom) sql=</datasource>
+      <id>Puente_Red_Vial20151126090951857</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Puente Red Vial" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -8284,7 +8341,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="179,254,112,255"/>
+              <prop k="color" v="249,178,78,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -8448,8 +8505,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Puntos_de_Alturas_Topograficas20151126055703419</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Puntos de Alturas Topograficas" (geom) sql=</datasource>
+      <id>Puntos_de_Alturas_Topograficas20151126090951866</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Puntos de Alturas Topograficas" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -8563,7 +8620,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="129,132,93,255"/>
+              <prop k="color" v="181,168,135,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -8709,8 +8766,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Puntos_del_Terreno20151126055703453</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Puntos del Terreno" (geom) sql=</datasource>
+      <id>Puntos_del_Terreno20151126090951875</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Puntos del Terreno" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -8824,7 +8881,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="143,121,55,255"/>
+              <prop k="color" v="189,17,175,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -8970,8 +9027,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Red_Ferroviaria20151126055703487</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiLineString table="public"."Red Ferroviaria" (geom) sql=</datasource>
+      <id>Red_Ferroviaria20151126090951885</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiLineString table="public"."Red Ferroviaria" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -9111,7 +9168,7 @@
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="224,89,84,255"/>
+              <prop k="line_color" v="150,130,101,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="0.26"/>
               <prop k="line_width_unit" v="MM"/>
@@ -9271,8 +9328,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Red_Vial20151126055703522</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiLineString table="public"."Red Vial" (geom) sql=</datasource>
+      <id>Red_Vial20151126090951894</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiLineString table="public"."Red Vial" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -9421,7 +9478,7 @@
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="131,107,250,255"/>
+              <prop k="line_color" v="123,77,137,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="0.26"/>
               <prop k="line_width_unit" v="MM"/>
@@ -9590,8 +9647,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Salvado_de_Obstaculo20151126055703556</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Salvado de Obstaculo" (geom) sql=</datasource>
+      <id>Salvado_de_Obstaculo20151126090951903</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Salvado de Obstaculo" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -9699,7 +9756,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="115,162,211,255"/>
+              <prop k="color" v="16,134,157,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -9839,8 +9896,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Señalizaciones20151126055703590</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Señalizaciones" (geom) sql=</datasource>
+      <id>Señalizaciones20151126090951915</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."Señalizaciones" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -9951,7 +10008,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="174,94,163,255"/>
+              <prop k="color" v="164,199,123,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -10094,8 +10151,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Suelo_Congelado20151126055703630</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Suelo Congelado" (geom) sql=</datasource>
+      <id>Suelo_Congelado20151126090951925</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Suelo Congelado" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -10209,7 +10266,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="23,80,159,255"/>
+              <prop k="color" v="37,113,226,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -10349,8 +10406,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Suelo_Consolidado20151126055703664</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Suelo Consolidado" (geom) sql=</datasource>
+      <id>Suelo_Consolidado20151126090951934</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Suelo Consolidado" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -10464,7 +10521,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="110,47,174,255"/>
+              <prop k="color" v="223,0,167,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -10604,8 +10661,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Suelo_Costero20151126055703698</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Suelo Costero" (geom) sql=</datasource>
+      <id>Suelo_Costero20151126090951944</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Suelo Costero" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -10719,7 +10776,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="142,141,198,255"/>
+              <prop k="color" v="129,63,236,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -10859,8 +10916,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Suelo_Hidromorfologico20151126055703731</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Suelo Hidromorfologico" (geom) sql=</datasource>
+      <id>Suelo_Hidromorfologico20151126090951953</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Suelo Hidromorfologico" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -10974,7 +11031,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="136,34,78,255"/>
+              <prop k="color" v="80,250,191,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -11114,8 +11171,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Suelo_no_Consolidado20151126055703766</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Suelo no Consolidado" (geom) sql=</datasource>
+      <id>Suelo_no_Consolidado20151126090951962</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Suelo no Consolidado" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -11229,7 +11286,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="163,220,122,255"/>
+              <prop k="color" v="224,198,2,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -11369,8 +11426,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Vegetacion_Arborea20151126055703801</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Vegetacion Arborea" (geom) sql=</datasource>
+      <id>Vegetacion_Arborea20151126090951972</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Vegetacion Arborea" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -11484,7 +11541,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="204,150,172,255"/>
+              <prop k="color" v="100,95,238,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -11624,8 +11681,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Vegetacion_Arbustiva20151126055703835</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Vegetacion Arbustiva" (geom) sql=</datasource>
+      <id>Vegetacion_Arbustiva20151126090951981</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Vegetacion Arbustiva" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -11739,7 +11796,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="104,143,112,255"/>
+              <prop k="color" v="212,147,111,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -11879,8 +11936,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Vegetacion_Cultivos20151126055703868</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Vegetacion Cultivos" (geom) sql=</datasource>
+      <id>Vegetacion_Cultivos20151126090951990</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Vegetacion Cultivos" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -11994,7 +12051,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="202,230,152,255"/>
+              <prop k="color" v="228,144,182,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -12134,8 +12191,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Vegetacion_Hidrofila20151126055703903</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Vegetacion Hidrofila" (geom) sql=</datasource>
+      <id>Vegetacion_Hidrofila20151126090951999</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Vegetacion Hidrofila" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -12249,7 +12306,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="169,143,119,255"/>
+              <prop k="color" v="46,150,122,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -12389,8 +12446,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Vegetacion_Suelo_Desnudo20151126055703937</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Vegetacion Suelo Desnudo" (geom) sql=</datasource>
+      <id>Vegetacion_Suelo_Desnudo20151126090952009</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="public"."Vegetacion Suelo Desnudo" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -12504,7 +12561,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="28,59,160,255"/>
+              <prop k="color" v="207,34,144,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -12644,8 +12701,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Vias_Secundarias20151126055703971</id>
-      <datasource>dbname='gis' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiLineString table="public"."Vias Secundarias" (geom) sql=</datasource>
+      <id>Vias_Secundarias20151126090952018</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=MultiLineString table="public"."Vias Secundarias" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -12767,7 +12824,7 @@
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="60,26,146,255"/>
+              <prop k="line_color" v="123,116,224,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="0.26"/>
               <prop k="line_width_unit" v="MM"/>
@@ -12908,17 +12965,236 @@
         </edittype>
       </edittypes>
     </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>visitas20151126090952027</id>
+      <datasource>dbname='TPI' host=localhost port=5432 user='user' password='user' sslmode=disable key='gid' srid=4326 type=Point table="public"."visitas" (geom) sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>visitas</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">postgres</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="gid">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="nombre_lugar">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fecha_visita">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="duracion">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="calificacion">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="201,207,111,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>gid</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etiqueta"/>
+        <family fieldname="" name="Ubuntu"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="gid">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="nombre_lugar">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fecha_visita">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="duracion">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="calificacion">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+    </maplayer>
   </projectlayers>
   <properties>
-    <SpatialRefSys>
-      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
-      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
-      <ProjectCRSID type="int">3452</ProjectCRSID>
-      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
-    </SpatialRefSys>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <Variables>
+      <variableNames type="QStringList"/>
+      <variableValues type="QStringList"/>
+    </Variables>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSExtent type="QStringList">
+      <value>-108.52578947368419904</value>
+      <value>-61.62394736842106369</value>
+      <value>-4.77473684210526095</value>
+      <value>-14.37394736842106369</value>
+    </WMSExtent>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WFSUrl type="QString"></WFSUrl>
     <Paths>
       <Absolute type="bool">false</Absolute>
     </Paths>
+    <WMSServiceTitle type="QString">TPI</WMSServiceTitle>
+    <WFSLayers type="QStringList">
+      <value>Actividades_Agropecuarias20151126090951573</value>
+      <value>Actividades_Economicas20151126090951598</value>
+      <value>Complejo_de_Energia20151126090951608</value>
+      <value>Curso_de_Agua20151126090951617</value>
+      <value>Curvas_de_Nivel20151126090951626</value>
+      <value>Edificio_Construcciones_Turisticas20151126090951636</value>
+      <value>Edificio_Deportivo_y_Esparcimiento20151126090951645</value>
+      <value>Edificio_Educacion20151126090951654</value>
+      <value>Edificio_Publico20151126090951663</value>
+      <value>Edificio_Religiosos20151126090951672</value>
+      <value>Edificio_de_Salud20151126090951681</value>
+      <value>Edificio_de_Seguridad20151126090951690</value>
+      <value>Edificios_Ferroviarios20151126090951700</value>
+      <value>Ejido20151126090951709</value>
+      <value>Espejo_de_Agua20151126090951718</value>
+      <value>Estructura_Aeroportuaria20151126090951727</value>
+      <value>Estructura_Hidraulica20151126090951736</value>
+      <value>Estructuras_Portuarias20151126090951746</value>
+      <value>Isla20151126090951754</value>
+      <value>Limite_Politico_Administrativo20151126090951764</value>
+      <value>Lineas_Conduccion_Electrica20151126090951773</value>
+      <value>Localidades20151126090951782</value>
+      <value>Marcas_y_Señales20151126090951792</value>
+      <value>Muro_Embalse20151126090951801</value>
+      <value>Obra_Portuaria20151126090951810</value>
+      <value>Obra_de_Comunicacion20151126090951819</value>
+      <value>Otras_Edificaciones20151126090951828</value>
+      <value>Pais_Limite20151126090951838</value>
+      <value>Provincias20151126090951847</value>
+      <value>Puente_Red_Vial20151126090951857</value>
+      <value>Puntos_de_Alturas_Topograficas20151126090951866</value>
+      <value>Puntos_del_Terreno20151126090951875</value>
+      <value>Red_Ferroviaria20151126090951885</value>
+      <value>Red_Vial20151126090951894</value>
+      <value>Salvado_de_Obstaculo20151126090951903</value>
+      <value>Señalizaciones20151126090951915</value>
+      <value>Suelo_Congelado20151126090951925</value>
+      <value>Suelo_Consolidado20151126090951934</value>
+      <value>Suelo_Costero20151126090951944</value>
+      <value>Suelo_Hidromorfologico20151126090951953</value>
+      <value>Suelo_no_Consolidado20151126090951962</value>
+      <value>Vegetacion_Arborea20151126090951972</value>
+      <value>Vegetacion_Arbustiva20151126090951981</value>
+      <value>Vegetacion_Cultivos20151126090951990</value>
+      <value>Vegetacion_Hidrofila20151126090951999</value>
+      <value>Vegetacion_Suelo_Desnudo20151126090952009</value>
+      <value>Vias_Secundarias20151126090952018</value>
+      <value>visitas20151126090952027</value>
+    </WFSLayers>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WMSRestrictedComposers type="QStringList"/>
+    <WMSRestrictedLayers type="QStringList"/>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+      <DegreeFormat type="QString">D</DegreeFormat>
+    </PositionPrecision>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <Measure>
+      <Ellipsoid type="QString">NONE</Ellipsoid>
+    </Measure>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSCrsList type="QStringList">
+      <value></value>
+      <value>EPSG:4326</value>
+      <value>EPSG:22175</value>
+    </WMSCrsList>
+    <WFSTLayers>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+      <Delete type="QStringList"/>
+    </WFSTLayers>
     <Gui>
       <SelectionColorBluePart type="int">0</SelectionColorBluePart>
       <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
@@ -12930,263 +13206,94 @@
     </Gui>
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
-      <LayerSnappingList type="QStringList">
-        <value>Actividades_Agropecuarias20151126055702152</value>
-        <value>Actividades_Economicas20151126055702268</value>
-        <value>Complejo_de_Energia20151126055702307</value>
-        <value>Curso_de_Agua20151126055702342</value>
-        <value>Curvas_de_Nivel20151126055702384</value>
-        <value>Edificio_Construcciones_Turisticas20151126055702420</value>
-        <value>Edificio_Deportivo_y_Esparcimiento20151126055702457</value>
-        <value>Edificio_Educacion20151126055702492</value>
-        <value>Edificio_Publico20151126055702527</value>
-        <value>Edificio_Religiosos20151126055702560</value>
-        <value>Edificio_de_Salud20151126055702605</value>
-        <value>Edificio_de_Seguridad20151126055702654</value>
-        <value>Edificios_Ferroviarios20151126055702699</value>
-        <value>Ejido20151126055702735</value>
-        <value>Espejo_de_Agua20151126055702770</value>
-        <value>Estructura_Aeroportuaria20151126055702823</value>
-        <value>Estructura_Hidraulica20151126055702864</value>
-        <value>Estructuras_Portuarias20151126055702903</value>
-        <value>Isla20151126055702946</value>
-        <value>Limite_Politico_Administrativo20151126055702987</value>
-        <value>Lineas_Conduccion_Electrica20151126055703029</value>
-        <value>Localidades20151126055703063</value>
-        <value>Marcas_y_Señales20151126055703104</value>
-        <value>Muro_Embalse20151126055703140</value>
-        <value>Obra_Portuaria20151126055703175</value>
-        <value>Obra_de_Comunicacion20151126055703226</value>
-        <value>Otras_Edificaciones20151126055703282</value>
-        <value>Pais_Limite20151126055703316</value>
-        <value>Provincias20151126055703352</value>
-        <value>Puente_Red_Vial20151126055703385</value>
-        <value>Puntos_de_Alturas_Topograficas20151126055703419</value>
-        <value>Puntos_del_Terreno20151126055703453</value>
-        <value>Red_Ferroviaria20151126055703487</value>
-        <value>Red_Vial20151126055703522</value>
-        <value>Salvado_de_Obstaculo20151126055703556</value>
-        <value>Señalizaciones20151126055703590</value>
-        <value>Suelo_Congelado20151126055703630</value>
-        <value>Suelo_Consolidado20151126055703664</value>
-        <value>Suelo_Costero20151126055703698</value>
-        <value>Suelo_Hidromorfologico20151126055703731</value>
-        <value>Suelo_no_Consolidado20151126055703766</value>
-        <value>Vegetacion_Arborea20151126055703801</value>
-        <value>Vegetacion_Arbustiva20151126055703835</value>
-        <value>Vegetacion_Cultivos20151126055703868</value>
-        <value>Vegetacion_Hidrofila20151126055703903</value>
-        <value>Vegetacion_Suelo_Desnudo20151126055703937</value>
-        <value>Vias_Secundarias20151126055703971</value>
-      </LayerSnappingList>
-      <LayerSnappingEnabledList type="QStringList">
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-      </LayerSnappingEnabledList>
+      <LayerSnappingList type="QStringList"/>
+      <LayerSnappingEnabledList type="QStringList"/>
       <SnappingMode type="QString">current_layer</SnappingMode>
       <AvoidIntersectionsList type="QStringList"/>
-      <LayerSnappingToleranceUnitList type="QStringList">
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-      </LayerSnappingToleranceUnitList>
-      <LayerSnapToList type="QStringList">
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-      </LayerSnapToList>
+      <LayerSnappingToleranceUnitList type="QStringList"/>
+      <LayerSnapToList type="QStringList"/>
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
-      <LayerSnappingToleranceList type="QStringList">
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-      </LayerSnappingToleranceList>
+      <LayerSnappingToleranceList type="QStringList"/>
     </Digitizing>
-    <PositionPrecision>
-      <DecimalPlaces type="int">2</DecimalPlaces>
-      <Automatic type="bool">true</Automatic>
-    </PositionPrecision>
+    <WFSLayersPrecision>
+      <Actividades_Agropecuarias20151126090951573 type="int">8</Actividades_Agropecuarias20151126090951573>
+      <Vegetacion_Arborea20151126090951972 type="int">8</Vegetacion_Arborea20151126090951972>
+      <Marcas_y_Señales20151126090951792 type="int">8</Marcas_y_Señales20151126090951792>
+      <Estructura_Aeroportuaria20151126090951727 type="int">8</Estructura_Aeroportuaria20151126090951727>
+      <Vegetacion_Suelo_Desnudo20151126090952009 type="int">8</Vegetacion_Suelo_Desnudo20151126090952009>
+      <Edificio_Educacion20151126090951654 type="int">8</Edificio_Educacion20151126090951654>
+      <Suelo_Consolidado20151126090951934 type="int">8</Suelo_Consolidado20151126090951934>
+      <Complejo_de_Energia20151126090951608 type="int">8</Complejo_de_Energia20151126090951608>
+      <Puntos_de_Alturas_Topograficas20151126090951866 type="int">8</Puntos_de_Alturas_Topograficas20151126090951866>
+      <Curso_de_Agua20151126090951617 type="int">8</Curso_de_Agua20151126090951617>
+      <Suelo_no_Consolidado20151126090951962 type="int">8</Suelo_no_Consolidado20151126090951962>
+      <Edificio_Deportivo_y_Esparcimiento20151126090951645 type="int">8</Edificio_Deportivo_y_Esparcimiento20151126090951645>
+      <Ejido20151126090951709 type="int">8</Ejido20151126090951709>
+      <Muro_Embalse20151126090951801 type="int">8</Muro_Embalse20151126090951801>
+      <Estructuras_Portuarias20151126090951746 type="int">8</Estructuras_Portuarias20151126090951746>
+      <Localidades20151126090951782 type="int">8</Localidades20151126090951782>
+      <Suelo_Hidromorfologico20151126090951953 type="int">8</Suelo_Hidromorfologico20151126090951953>
+      <Provincias20151126090951847 type="int">8</Provincias20151126090951847>
+      <Salvado_de_Obstaculo20151126090951903 type="int">8</Salvado_de_Obstaculo20151126090951903>
+      <Edificio_Publico20151126090951663 type="int">8</Edificio_Publico20151126090951663>
+      <Edificio_Religiosos20151126090951672 type="int">8</Edificio_Religiosos20151126090951672>
+      <Puente_Red_Vial20151126090951857 type="int">8</Puente_Red_Vial20151126090951857>
+      <Suelo_Costero20151126090951944 type="int">8</Suelo_Costero20151126090951944>
+      <Obra_de_Comunicacion20151126090951819 type="int">8</Obra_de_Comunicacion20151126090951819>
+      <Otras_Edificaciones20151126090951828 type="int">8</Otras_Edificaciones20151126090951828>
+      <Vegetacion_Arbustiva20151126090951981 type="int">8</Vegetacion_Arbustiva20151126090951981>
+      <Edificios_Ferroviarios20151126090951700 type="int">8</Edificios_Ferroviarios20151126090951700>
+      <visitas20151126090952027 type="int">8</visitas20151126090952027>
+      <Red_Ferroviaria20151126090951885 type="int">8</Red_Ferroviaria20151126090951885>
+      <Red_Vial20151126090951894 type="int">8</Red_Vial20151126090951894>
+      <Vegetacion_Cultivos20151126090951990 type="int">8</Vegetacion_Cultivos20151126090951990>
+      <Pais_Limite20151126090951838 type="int">8</Pais_Limite20151126090951838>
+      <Edificio_de_Salud20151126090951681 type="int">8</Edificio_de_Salud20151126090951681>
+      <Vegetacion_Hidrofila20151126090951999 type="int">8</Vegetacion_Hidrofila20151126090951999>
+      <Suelo_Congelado20151126090951925 type="int">8</Suelo_Congelado20151126090951925>
+      <Señalizaciones20151126090951915 type="int">8</Señalizaciones20151126090951915>
+      <Edificio_de_Seguridad20151126090951690 type="int">8</Edificio_de_Seguridad20151126090951690>
+      <Edificio_Construcciones_Turisticas20151126090951636 type="int">8</Edificio_Construcciones_Turisticas20151126090951636>
+      <Curvas_de_Nivel20151126090951626 type="int">8</Curvas_de_Nivel20151126090951626>
+      <Isla20151126090951754 type="int">8</Isla20151126090951754>
+      <Actividades_Economicas20151126090951598 type="int">8</Actividades_Economicas20151126090951598>
+      <Lineas_Conduccion_Electrica20151126090951773 type="int">8</Lineas_Conduccion_Electrica20151126090951773>
+      <Limite_Politico_Administrativo20151126090951764 type="int">8</Limite_Politico_Administrativo20151126090951764>
+      <Obra_Portuaria20151126090951810 type="int">8</Obra_Portuaria20151126090951810>
+      <Espejo_de_Agua20151126090951718 type="int">8</Espejo_de_Agua20151126090951718>
+      <Vias_Secundarias20151126090952018 type="int">8</Vias_Secundarias20151126090952018>
+      <Estructura_Hidraulica20151126090951736 type="int">8</Estructura_Hidraulica20151126090951736>
+      <Puntos_del_Terreno20151126090951875 type="int">8</Puntos_del_Terreno20151126090951875>
+    </WFSLayersPrecision>
+    <Identify>
+      <disabledLayers type="QStringList"/>
+    </Identify>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <WMSAccessConstraints type="QString"></WMSAccessConstraints>
+    <WCSLayers type="QStringList"/>
     <Legend>
       <filterByMap type="bool">false</filterByMap>
     </Legend>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <DefaultStyles>
+      <Fill type="QString"></Fill>
+      <Line type="QString"></Line>
+      <Marker type="QString"></Marker>
+      <RandomColors type="bool">true</RandomColors>
+      <AlphaInt type="int">255</AlphaInt>
+      <ColorRamp type="QString"></ColorRamp>
+    </DefaultStyles>
+    <WMSFees type="QString"></WMSFees>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WMSUrl type="QString"></WMSUrl>
   </properties>
   <visibility-presets/>
 </qgis>
