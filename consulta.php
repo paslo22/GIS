@@ -4,7 +4,7 @@ header('Content-type: text/html; charset=utf-8;');
 $wkt =  $_GET['wkt'];
 $capasString = $_GET['capas'];
 $capasArray = explode(';', $capasString);
-
+echo $wkt;
 $link= pg_connect("host=localhost user=user password=user dbname=gis");
 
 $salida = '';
