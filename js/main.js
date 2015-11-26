@@ -163,15 +163,11 @@ setInteractions = function() {
 	};
 
 	var almacenarPunto = function(evt){
-		console.log(evt.coordinate);
 		$("#formVisita #coordenadas").attr("value", 'POINT('+evt.coordinate[0]+' ' +evt.coordinate[1]+')');
 		$("#formVisita").modal();
 	};
 
-
-	//logica para dibujar
 	var source = new ol.source.Vector();
-
 	var vector = new ol.layer.Vector({
 	  title: 'Visitas',
 	  source: source,
@@ -192,8 +188,7 @@ setInteractions = function() {
 	  })
 	});
 
-	map.addLayer(vector);
-	drawInteraction = new ol.interaction.Draw({
+	var drawInteraction = new ol.interaction.Draw({
       source: source,
       type: 'Point'
     });
@@ -206,12 +201,11 @@ setInteractions = function() {
 			$('#controls #insertar')[0].checked = false;
 			map.removeInteraction(selectInteraction);
 			map.removeInteraction(drawInteraction);
+			map.removeLayer(source.clear());
 			map.un('click',clickOnMap);
+			map.un('click',almacenarPunto);
 		} else {
-			console.log('Aca destilde navegacion')
-			$('#controls #consulta')[0].checked = true;
-			map.addInteraction(selectInteraction);
-			map.on('click',clickOnMap);
+			$('#controls #navegacion')[0].checked = true;
 		};
 	});
 
@@ -223,39 +217,26 @@ setInteractions = function() {
 			$('#controls #insertar')[0].checked = false;
 			map.addInteraction(selectInteraction);
 			map.removeInteraction(drawInteraction);
+			map.removeLayer(source.clear());
 			map.on('click',clickOnMap);
 			map.un('click',almacenarPunto);
 		} else {
-			console.log('Aca destilde consulta')
-			$('#controls #navegacion')[0].checked = true;
-			map.removeInteraction(selectInteraction);
-			map.removeInteraction(drawInteraction);
-			map.un('click',clickOnMap);
+			$('#controls #consulta')[0].checked = true;
 		}
 	});
 
 	$('#controls #insertar').click(function(event) {
 	  	var $this = $(this);
 	  	if ($this.is(':checked')) {
-	    $('#controls #navegacion')[0].checked = false;
-	    $('#controls #consulta')[0].checked = false;
-	    map.addInteraction(drawInteraction);
-	    map.on('click',almacenarPunto);
-	  } else {
-	    console.log('Aca destilde consulta')
-	    $('#controls #navegacion')[0].checked = true;
-	    map.removeInteraction(selectInteraction);
-	    map.removeInteraction(drawInteraction);
-	    map.un('click',clickOnMap);
-	    map.un('click',almacenarPunto);
-}
-
-
-});
-
-		//this is used to bind the click on the checkbox of navigation to toggle the navigation/consult
-	
-
-
-
+		    $('#controls #navegacion')[0].checked = false;
+		    $('#controls #consulta')[0].checked = false;
+		    map.addLayer(vector);
+		    map.addInteraction(drawInteraction);
+		    map.removeInteraction(selectInteraction);
+		    map.un('click',clickOnMap);
+		    map.on('click',almacenarPunto);
+		} else {
+		    $('#controls #insertar')[0].checked = true;
+		}
+	});
 };
