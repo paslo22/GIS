@@ -13,7 +13,6 @@ $(document).ready(function() {
 
 	getCapabilities();
 	setInteractions();	
-	agregarDibujo();
 })
 
 //This method is the first of a couple of methods that are trigger using the "then" function
@@ -163,6 +162,10 @@ setInteractions = function() {
 		return;
 	};
 
+	var almacenarPunto = function(evt){
+		console.log(evt.coordinate);
+	}
+
 
 	//logica para dibujar
 	var source = new ol.source.Vector();
@@ -200,6 +203,7 @@ setInteractions = function() {
 			$('#controls #consulta')[0].checked = false;
 			$('#controls #insertar')[0].checked = false;
 			map.removeInteraction(selectInteraction);
+			map.removeInteraction(drawInteraction);
 			map.un('click',clickOnMap);
 		} else {
 			console.log('Aca destilde navegacion')
@@ -216,27 +220,32 @@ setInteractions = function() {
 			$('#controls #navegacion')[0].checked = false;
 			$('#controls #insertar')[0].checked = false;
 			map.addInteraction(selectInteraction);
+			map.removeInteraction(drawInteraction);
 			map.on('click',clickOnMap);
+			map.un('click',almacenarPunto);
 		} else {
 			console.log('Aca destilde consulta')
 			$('#controls #navegacion')[0].checked = true;
 			map.removeInteraction(selectInteraction);
+			map.removeInteraction(drawInteraction);
 			map.un('click',clickOnMap);
 		}
 	});
 
 	$('#controls #insertar').click(function(event) {
-  	var $this = $(this);
-  	if ($this.is(':checked')) {
-    $('#controls #navegacion')[0].checked = false;
-    $('#controls #consulta')[0].checked = false;
-    map.addInteraction(dr);
-    map.on('click',clickOnMap);
-  } else {
-    console.log('Aca destilde consulta')
-    $('#controls #navegacion')[0].checked = true;
-    map.removeInteraction(selectInteraction);
-    map.un('click',clickOnMap);
+	  	var $this = $(this);
+	  	if ($this.is(':checked')) {
+	    $('#controls #navegacion')[0].checked = false;
+	    $('#controls #consulta')[0].checked = false;
+	    map.addInteraction(drawInteraction);
+	    map.on('click',almacenarPunto);
+	  } else {
+	    console.log('Aca destilde consulta')
+	    $('#controls #navegacion')[0].checked = true;
+	    map.removeInteraction(selectInteraction);
+	    map.removeInteraction(drawInteraction);
+	    map.un('click',clickOnMap);
+	    map.un('click',almacenarPunto);
 }
 
 
