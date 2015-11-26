@@ -1,48 +1,19 @@
 <?php
-header('Content-type: text/html; charset=utf-8;');
-$wkt =  $_GET['coordenadas'];
-$nombre_lugar=$_GET['lugar'];
-$fecha_visita=$_GET['fecha'];
-$duracion=$_GET['duracion'];
-$calificacion=$_GET['calificacion'];
+$coord =  $_POST['coord'];
+$lugar=$_POST['lugar'];
+$fecha=$_POST['fecha'];
+$duracion=$_POST['duracion'];
+$calificacion=$_POST['calificacion'];
 
-$link= pg_connect("host=localhost user=user password=user dbname=gis");
+$link= pg_connect("host=localhost user=user password=user dbname=TPI");
 
 
 	
 $query=<<<EOD
-INSERT INTO visitas(
-            geom, nombre_lugar, fecha_visita, duracion, calificacion)
-    VALUES (ST_GeomFromText($wkt,4326),$nombre_lugar, $fecha_visita, $duracion, $calificacion);
+INSERT INTO visitas(geom, nombre_lugar, fecha_visita, duracion, calificacion)
+    VALUES (ST_GeomFromText('$coord',4326),'$lugar', '$fecha', '$duracion', '$calificacion');
 EOD;
 
-echo $query;
 $result = pg_query($query);
-exit('success');
-
-
-
-
-
-
-
+echo pg_affected_rows($result);
 ?>
-<!doctype html>
-<html lang="en">
-	<head>
-		<style>
-			body, table{
-				font-family: Arial, Helvetica, sans-serif;
-				font-size: 11px;
-							
-			}
-		</style>
-	</head>
-<body>
-
-
-
-<?php echo $salida ?>
-
-</body>
-</html>

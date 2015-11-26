@@ -74,7 +74,7 @@ addChecks = function(capas) {
 		//get the id of the checkbox with is the name of the layer
 		var layerName = $(el).attr('id');
 		//get the layer from the map filtering it by his name
-		layer = map.getLayers().getArray().filter(function(a) {
+		var layer = map.getLayers().getArray().filter(function(a) {
 			return (a.getProperties().title == layerName)
 		});
 		bindear(layer[0],el);
@@ -109,9 +109,6 @@ setInteractions = function() {
 			})
 		})
 	});
-
-
-
 
 	//(this is another way (no jQuery way) to) bind the interaction of consult to the method consulta.
 	selectInteraction.on('boxend', function (evt) {
@@ -162,9 +159,44 @@ setInteractions = function() {
 		return;
 	};
 
+
 	var almacenarPunto = function(evt){
 		$("#formVisita #coordenadas").attr("value", 'POINT('+evt.coordinate[0]+' ' +evt.coordinate[1]+')');
 		$("#formVisita").modal();
+		$("#form-container form").on('submit', function(event) {
+			event.preventDefault();
+			var data = 'coord=POINT('+evt.coordinate[0]+' ' +evt.coordinate[1]+')&' + $(this).serialize();
+			$.ajax({
+				url: 'guardar.php',
+				type: 'POST',
+				data: data,
+			})
+			.done(function(response) {
+				if (response) {
+					alert("Insertado");
+				}else{
+					alert("Error");
+				}
+			})
+			.always(function() {
+				$("#formVisita").modal('hide');
+				$.when(getVisitasLayer()).then(function(visitaLayer) {
+					visitaLayer[0].getSource().updateParams({ol3_salt:Math.random()});
+				});
+			});
+		});
+		$("#formVisita").on('hidden.bs.modal', function(event) {
+			event.preventDefault();
+			source.clear();
+		});	
+
+	};
+
+	var getVisitasLayer = function() {
+		var layer = map.getLayers().getArray().filter(function(a) {
+			return (a.getProperties().title == "visitas")
+		});
+		return layer;
 	};
 
 	var source = new ol.source.Vector();
@@ -235,6 +267,9 @@ setInteractions = function() {
 		    map.removeInteraction(selectInteraction);
 		    map.un('click',clickOnMap);
 		    map.on('click',almacenarPunto);
+		    if (!($("#visitas").is(':checked'))) {
+		    	$("#visitas").trigger('click');
+		    };
 		} else {
 		    $('#controls #insertar')[0].checked = true;
 		}

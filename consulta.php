@@ -4,8 +4,7 @@ header('Content-type: text/html; charset=utf-8;');
 $wkt =  $_GET['wkt'];
 $capasString = $_GET['capas'];
 $capasArray = explode(';', $capasString);
-echo $wkt;
-$link= pg_connect("host=localhost user=user password=user dbname=gis");
+$link= pg_connect("host=localhost user=user password=user dbname=TPI");
 
 $salida = '';
 
@@ -16,7 +15,7 @@ SELECT * FROM public."$value" WHERE
 ST_Intersects(
 ST_GeomFromText('$wkt',4326),
 geom
-)
+) LIMIT 100 
 EOD;
 	echo $query;
 	$result = pg_query($query);
