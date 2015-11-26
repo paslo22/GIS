@@ -5,7 +5,7 @@ $wkt =  $_GET['wkt'];
 $capasString = $_GET['capas'];
 $capasArray = explode(';', $capasString);
 
-$link= pg_connect("host=localhost user=user password=user dbname=TPI");
+$link= pg_connect("host=localhost user=user password=user dbname=gis");
 
 $salida = '';
 
@@ -18,7 +18,7 @@ ST_GeomFromText('$wkt',4326),
 geom
 )
 EOD;
-	// echo $query;
+	echo $query;
 	$result = pg_query($query);
 	$nro_campos = pg_num_fields($result);
 	$nro_registros = pg_num_rows($result);

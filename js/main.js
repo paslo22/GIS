@@ -13,6 +13,7 @@ $(document).ready(function() {
 
 	getCapabilities();
 	setInteractions();	
+	agregarDibujo();
 })
 
 //This method is the first of a couple of methods that are trigger using the "then" function
@@ -97,6 +98,8 @@ setInteractions = function() {
 	$('#controls #navegacion')[0].checked=true;
 	//set the check of consult on false by default
 	$('#controls #consulta')[0].checked=false;
+	$('#controls #insertar')[0].checked=false;
+
 
 	//create the interaction for consult (el cuadrado azul)
 	var selectInteraction = new ol.interaction.DragBox({
@@ -107,6 +110,9 @@ setInteractions = function() {
 			})
 		})
 	});
+
+
+
 
 	//(this is another way (no jQuery way) to) bind the interaction of consult to the method consulta.
 	selectInteraction.on('boxend', function (evt) {
@@ -157,11 +163,42 @@ setInteractions = function() {
 		return;
 	};
 
+
+	//logica para dibujar
+	var source = new ol.source.Vector();
+
+	var vector = new ol.layer.Vector({
+	  title: 'Visitas',
+	  source: source,
+	  style: new ol.style.Style({
+	    fill: new ol.style.Fill({
+	      color: 'rgba(255, 255, 255, 0.2)'
+	    }),
+	    stroke: new ol.style.Stroke({
+	      color: '#ffcc33',
+	      width: 2
+	    }),
+	    image: new ol.style.Circle({
+	      radius: 7,
+	      fill: new ol.style.Fill({
+	        color: '#ffcc33'
+	      })
+	    })
+	  })
+	});
+
+	map.addLayer(vector);
+	drawInteraction = new ol.interaction.Draw({
+      source: source,
+      type: 'Point'
+    });
+
 	//this is used to bind the click on the checkbox of navigation to toggle the navigation/consult
 	$('#controls #navegacion').click(function(event) {
 		var $this = $(this);
 		if ($this.is(':checked')) {
 			$('#controls #consulta')[0].checked = false;
+			$('#controls #insertar')[0].checked = false;
 			map.removeInteraction(selectInteraction);
 			map.un('click',clickOnMap);
 		} else {
@@ -177,6 +214,7 @@ setInteractions = function() {
 		var $this = $(this);
 		if ($this.is(':checked')) {
 			$('#controls #navegacion')[0].checked = false;
+			$('#controls #insertar')[0].checked = false;
 			map.addInteraction(selectInteraction);
 			map.on('click',clickOnMap);
 		} else {
@@ -186,4 +224,27 @@ setInteractions = function() {
 			map.un('click',clickOnMap);
 		}
 	});
+
+	$('#controls #insertar').click(function(event) {
+  	var $this = $(this);
+  	if ($this.is(':checked')) {
+    $('#controls #navegacion')[0].checked = false;
+    $('#controls #consulta')[0].checked = false;
+    map.addInteraction(dr);
+    map.on('click',clickOnMap);
+  } else {
+    console.log('Aca destilde consulta')
+    $('#controls #navegacion')[0].checked = true;
+    map.removeInteraction(selectInteraction);
+    map.un('click',clickOnMap);
+}
+
+
+});
+
+		//this is used to bind the click on the checkbox of navigation to toggle the navigation/consult
+	
+
+
+
 };
