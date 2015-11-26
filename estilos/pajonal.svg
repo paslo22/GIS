@@ -8,13 +8,13 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    version="1.1"
-   width="19.045084"
-   height="23.306051"
-   id="svg6862">
+   width="744.09448"
+   height="1052.3622"
+   id="svg2">
   <defs
-     id="defs6864" />
+     id="defs4" />
   <metadata
-     id="metadata6867">
+     id="metadata7">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -25,25 +25,16 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
-     transform="translate(-296.51241,-492.80897)"
-     id="layer1">
-    <g
-       transform="matrix(2.8115603,0,0,2.7828167,-848.54986,-674.88697)"
-       id="g7408-2-2"
-       style="stroke:#006800;stroke-opacity:1">
-      <path
-         d="m 422.70761,426.99721 0.83841,-11.84227 0.85424,11.55862 z"
-         id="path3050"
-         style="fill:#00c000;fill-opacity:1;stroke:none" />
-      <path
-         d="m 420.75849,427.10837 c -0.0546,-2.37109 0.18879,-3.53776 -0.16386,-7.11327 l -4.31066,-5.04662 5.5568,4.57554 0.98762,7.45951 z"
-         id="path3050-5"
-         style="fill:#00c000;fill-opacity:1;stroke:none" />
-      <path
-         d="m 426.53281,426.88603 c 0.0546,-2.37109 -0.18879,-3.53776 0.16386,-7.11327 l 4.31066,-5.04662 -5.5568,4.57554 -0.98762,7.45951 z"
-         id="path3050-5-1"
-         style="fill:#00c000;fill-opacity:1;stroke:none" />
-    </g>
-  </g>
+  <path
+     d="M 440.00585,780.65265 465.2162,402.25642 490.90257,771.58913 z"
+     id="path3050"
+     style="fill:#00c000;fill-opacity:1;stroke:none" />
+  <path
+     d="m 381.39728,784.20457 c -1.64177,-75.76348 5.67683,-113.04212 -4.92712,-227.29044 L 246.8519,395.6594 413.94066,541.8617 443.63761,780.21552 z"
+     id="path3050-5"
+     style="fill:#00c000;fill-opacity:1;stroke:none" />
+  <path
+     d="m 555.02669,777.10015 c 1.64177,-75.76348 -5.67672,-113.04211 4.92712,-227.29044 L 689.57207,388.55498 522.48342,534.75728 492.78636,773.1111 z"
+     id="path3050-5-1"
+     style="fill:#00c000;fill-opacity:1;stroke:none" />
 </svg>
